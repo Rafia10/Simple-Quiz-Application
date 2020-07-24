@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1 id="main">Let's Play Quiz Game To Test your knowledge about HTML</h1>
+    <form id="quiz" name="quiz" class="container">
+
+
+        <p>1. HTML stands for?</p>
+        <input id="text-box" type="radio" name="question1" value="Hyper Text Markup Language">Hyper Text Markup
+        Language <br>
+        <input id="text-box" type="radio" name="question1">High Text Markup Language
+        <br> <input id="text-box" type="radio" name="question1">Hyper Tabular Markup Language<br>
+
+        <p>2: which of the following tag is used to mark a begining of paragraph ?</p>
+        <input id="text-box" type="radio" name="question2">td<br>
+        <input id="text-box" type="radio" name="question2" value="p"> p
+        <br> <input id="text-box" type="radio" name="question2">li<br>
+
+        <p>3: Correct HTML tag for the largest heading is</p>
+        <input id="text-box" type="radio" name="question3" value="h1">h1<br>
+        <input id="text-box" type="radio" name="question3">h2
+        <br> <input id="text-box" type="radio" name="question3">h6<br>
+
+        <p>4: Web pages starts with which ofthe following tag?</p>
+        <input id="text-box" type="radio" name="question4">Head <br>
+        <input id="text-box" type="radio" name="question4" value="Html">Html
+        <br> <input id="text-box" type="radio" name="question4">body<br>
+
+        <p> 5:Input tag is</p>
+        <input id="text-box" type="radio" name="question5">format tag <br>
+        <input id="text-box" type="radio" name="question5" value="empty tag">empty tag
+        <br> <input id="text-box" type="radio" name="question5">both (a) and (b)<br>
+
+        <button type="button" id="button" onclick="check()" class="btn-primary">Submit Your Quiz</button>
+    </form>
+    <div id="after_submit">
+        <p id="number_correct" class="container bg-success"></p>
+        <p id="message"  class="container bg-success"></p>
+        
+    </div>
+    <br>
+    <div class="container" id="img"><img src="" alt=""id="pictures" height="300px" width="50%" ></div>
+</body>
+<script src="app.js"></script>
+
+</html>
