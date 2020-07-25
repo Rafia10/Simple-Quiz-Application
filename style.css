@@ -44,9 +44,10 @@ body{
 #img{
     border:none
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (min-width: 500px) {
     #img{
     width:80%;
+    height:100px
     
     }
   }
